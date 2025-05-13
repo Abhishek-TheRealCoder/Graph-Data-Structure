@@ -11,6 +11,7 @@ class Graph{
                 solve(neigh,adj,visited,ans);
             }
         }
+        return;
     }
     public:
     void dfs(int V,vector<vector<int>>&edges){
@@ -42,6 +43,7 @@ class Graph{
 
 int main(){
     int edges,vertices;
+    cin>>edges>>vertices;
     vector<vector<int>>edge;
     for(int i = 0;i < edges;i++){
         vector<int>temp;
