@@ -6,7 +6,7 @@ class Graph{
     public:
 
     void bfs(int V,vector<vector<int>>&edges){
-        //create adjacency list of size V i.e no of nodes
+        //create adjacency list of size V i.e no of
         //considering nodes from 0 To V-1;
         vector<vector<int>>adj(V);
         for(vector<int>edge : edges){
